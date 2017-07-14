@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a54a66b-4576-48a1-b924-acd4ad569c0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goRoutines/main/routine.go" afterPath="$PROJECT_DIR$/goRoutines/main/routine.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goRoutines/main/channels.go" afterPath="$PROJECT_DIR$/goRoutines/main/channels.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,10 +76,10 @@
       <file leaf-file-name="channels.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goRoutines/main/channels.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="595">
+              <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#14#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -701,12 +701,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500036718387</updated>
       <workItem from="1500036719636" duration="9011000" />
-      <workItem from="1500054107508" duration="3317000" />
+      <workItem from="1500054107508" duration="4502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12328000" />
+    <option name="totallyTimeSpent" value="13513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -870,10 +870,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goRoutines/main/channels.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="595">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
-            <element signature="e#14#26#0" expanded="true" />
+            <element signature="e#14#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
