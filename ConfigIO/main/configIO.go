@@ -1,15 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"log"
-	"os"
-	"io/ioutil"
-
-
-
 
 )
+import "fmt"
 
 // Config ...
 type Config struct {
@@ -19,11 +13,9 @@ type Config struct {
 }
 
 // Reads info from config file
-func ReadConfig() Config {
-}
+
 
 func main() {
-	config := ReadConfig()
-	fmt.Printf("%s: %s: %s\n", config.server, config.user, config.pw)
+	fmt.Println("config practice")
 
 }
