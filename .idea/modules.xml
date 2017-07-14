@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/FunctionsRecursion/FunctionsRecursion.iml" filepath="$PROJECT_DIR$/FunctionsRecursion/FunctionsRecursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/GOPractice.iml" filepath="$PROJECT_DIR$/.idea/GOPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringsIO/StringsIO.iml" filepath="$PROJECT_DIR$/StringsIO/StringsIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goRoutines/goRoutines.iml" filepath="$PROJECT_DIR$/goRoutines/goRoutines.iml" />
     </modules>
   </component>
 </project>

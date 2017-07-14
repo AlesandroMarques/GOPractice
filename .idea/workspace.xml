@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a54a66b-4576-48a1-b924-acd4ad569c0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GOPractice.iml" afterPath="$PROJECT_DIR$/.idea/GOPractice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PointersStrucks/main/pointersStrucks.go" afterPath="$PROJECT_DIR$/PointersStrucks/main/pointersStrucks.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StringsIO/main/IO.go" afterPath="$PROJECT_DIR$/StringsIO/main/IO.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="hello.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myFirstGoProject/main/hello.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="-680">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -34,8 +33,8 @@
       <file leaf-file-name="Funcs.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunctionsRecursion/main/Funcs.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IO.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IO.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StringsIO/main/IO.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routine.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goRoutines/main/routine.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/FunctionsRecursion/main/Funcs.go" />
         <option value="$PROJECT_DIR$/PointersStrucks/main/pointersStrucks.go" />
         <option value="$PROJECT_DIR$/StringsIO/main/IO.go" />
+        <option value="$PROJECT_DIR$/goRoutines/main/routine.go" />
       </list>
     </option>
   </component>
@@ -139,6 +149,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GOPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GOPractice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goRoutines" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -174,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run IO.go">
+  <component name="RunManager" selected="Go Single File.go run routine.go">
     <configuration default="false" name="go run hello.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="GOPractice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -193,10 +221,10 @@
       <filePath value="$PROJECT_DIR$/PointersStrucks/main/pointersStrucks.go" />
       <method />
     </configuration>
-    <configuration default="false" name="go run IO.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="StringsIO" />
+    <configuration default="false" name="go run routine.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="goRoutines" />
       <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/StringsIO/main/IO.go" />
+      <filePath value="$PROJECT_DIR$/goRoutines/main/routine.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -606,15 +634,22 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run hello.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Funcs.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run pointersStrucks.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run IO.go" />
+    <configuration default="false" name="go run IO.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="StringsIO" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/StringsIO/main/IO.go" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run IO.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run hello.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Funcs.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run pointersStrucks.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run routine.go" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run IO.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run routine.go" />
         <item index="1" class="java.lang.String" itemvalue="Go Single File.go run pointersStrucks.go" />
         <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Funcs.go" />
         <item index="3" class="java.lang.String" itemvalue="Go Single File.go run hello.go" />
@@ -632,12 +667,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500036718387</updated>
       <workItem from="1500036719636" duration="9011000" />
-      <workItem from="1500054107508" duration="896000" />
+      <workItem from="1500054107508" duration="2444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9907000" />
+    <option name="totallyTimeSpent" value="11455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -752,24 +787,6 @@
     <entry file="file://$PROJECT_DIR$/myFirstGoProject/main/practice.go" />
     <entry file="file://$PROJECT_DIR$/FunctionsRecusion/main.go" />
     <entry file="file://$PROJECT_DIR$/FunctionsRecusion/main/Funcs.go" />
-    <entry file="file://$PROJECT_DIR$/myFirstGoProject/main/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FunctionsRecursion/main/Funcs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PointersStrucks/main/pointersStrucks.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -780,10 +797,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionsRecursion/main/Funcs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myFirstGoProject/main/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StringsIO/main/IO.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goRoutines/main/routine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
