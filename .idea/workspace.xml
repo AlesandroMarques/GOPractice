@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a54a66b-4576-48a1-b924-acd4ad569c0a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myFirstGoProject/main/main.exe" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ConfigIO/main/host_key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ConfigIO/main/host_key.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ConfigIO/main/user_key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ConfigIO/main/user_key.pub" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConfigIO/main/configIO.go" afterPath="$PROJECT_DIR$/ConfigIO/main/configIO.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConfigIO/main/init.sh" afterPath="$PROJECT_DIR$/ConfigIO/main/init.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConfigIO/main/ssh.go" afterPath="$PROJECT_DIR$/ConfigIO/main/ssh.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myFirstGoProject/main/hello.go" afterPath="$PROJECT_DIR$/myFirstGoProject/main/hello.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +27,8 @@
       <file leaf-file-name="hello.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myFirstGoProject/main/hello.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="527">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -37,18 +42,6 @@
             <state relative-caret-position="153">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pointersStrucks.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PointersStrucks/main/pointersStrucks.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="e#14#40#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -92,10 +85,10 @@
       <file leaf-file-name="configIO.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConfigIO/main/configIO.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#14#38#0" expanded="true" />
+                <element signature="e#14#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,10 +97,10 @@
       <file leaf-file-name="ssh.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConfigIO/main/ssh.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="544">
+              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="92" />
               <folding>
-                <element signature="e#14#72#0" expanded="true" />
+                <element signature="e#14#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +127,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/myFirstGoProject/main/practice.go" />
-        <option value="$PROJECT_DIR$/myFirstGoProject/main/hello.go" />
         <option value="$PROJECT_DIR$/FunctionsRecusion/main.go" />
         <option value="$PROJECT_DIR$/FunctionsRecusion/Funcs.go" />
         <option value="$PROJECT_DIR$/FunctionsRecursion/main/Funcs.go" />
@@ -142,8 +134,9 @@
         <option value="$PROJECT_DIR$/StringsIO/main/IO.go" />
         <option value="$PROJECT_DIR$/goRoutines/main/routine.go" />
         <option value="$PROJECT_DIR$/goRoutines/main/channels.go" />
-        <option value="$PROJECT_DIR$/ConfigIO/main/configIO.go" />
+        <option value="$PROJECT_DIR$/myFirstGoProject/main/hello.go" />
         <option value="$PROJECT_DIR$/ConfigIO/main/ssh.go" />
+        <option value="$PROJECT_DIR$/ConfigIO/main/configIO.go" />
       </list>
     </option>
   </component>
@@ -290,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run ssh.go">
+  <component name="RunManager" selected="Go Single File.go run configIO.go">
     <configuration default="false" name="go run routine.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="goRoutines" />
       <working_directory value="$PROJECT_DIR$" />
@@ -744,9 +737,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run ssh.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run hello.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run configIO.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run configIO.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run ssh.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run hello.go" />
         <item index="3" class="java.lang.String" itemvalue="Go Single File.go run channels.go" />
         <item index="4" class="java.lang.String" itemvalue="Go Single File.go run routine.go" />
       </list>
@@ -764,15 +757,15 @@
       <updated>1500036718387</updated>
       <workItem from="1500036719636" duration="9011000" />
       <workItem from="1500054107508" duration="9428000" />
-      <workItem from="1500293863326" duration="8344000" />
+      <workItem from="1500293863326" duration="18852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26783000" />
+    <option name="totallyTimeSpent" value="37291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,7 +777,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40303358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -907,7 +900,7 @@
         <state relative-caret-position="255">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
-            <element signature="e#14#38#0" expanded="true" />
+            <element signature="e#14#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -917,7 +910,7 @@
         <state relative-caret-position="68">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#14#72#0" expanded="true" />
+            <element signature="e#14#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -991,26 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigIO/main/configIO.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#14#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myFirstGoProject/main/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StringsIO/main/IO.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -1029,6 +1002,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myFirstGoProject/main/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PointersStrucks/main/pointersStrucks.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1039,12 +1022,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigIO/main/configIO.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ConfigIO/main/ssh.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="544">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="92" />
           <folding>
-            <element signature="e#14#72#0" expanded="true" />
+            <element signature="e#14#73#0" expanded="true" />
           </folding>
         </state>
       </provider>

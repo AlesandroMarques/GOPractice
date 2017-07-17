@@ -29,6 +29,8 @@ func maps(){
 	fmt.Println(sshInfo["server"])
 
 }
+
+
 func mapsInMaps(){
 	superhero := map[string]map[string]string{
 		"Superman": map[string]string{

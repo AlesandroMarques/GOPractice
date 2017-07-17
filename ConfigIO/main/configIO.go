@@ -3,7 +3,11 @@ package main
 import (
 
 )
-import "fmt"
+import (
+	//"fmt"
+	"os/exec"
+	"fmt"
+)
 
 // Config ...
 type Config struct {
@@ -16,6 +20,5 @@ type Config struct {
 
 
 func main() {
-	fmt.Println("config practice")
 
 }
